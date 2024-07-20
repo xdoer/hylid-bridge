@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "hylid-bridge": "^3.0.0-alpha.11"
+  }
+}
