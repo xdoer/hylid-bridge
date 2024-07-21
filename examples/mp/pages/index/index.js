@@ -5,7 +5,11 @@ Page({
     url: 'http://localhost:5173?__app__=alipay',
   },
   onLoad() {
-    this.webBridge = new WebViewBridge(my.createWebViewContext('hylid'))
+    this.webBridge = new WebViewBridge(my.createWebViewContext('hylid'), {
+      __ipc__: (options) => {
+        options.success({ data: options.data })
+      },
+    })
   },
   onMessage(e) {
     this.webBridge.listen(e)
