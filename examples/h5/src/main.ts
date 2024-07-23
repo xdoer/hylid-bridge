@@ -35,8 +35,11 @@ document.querySelector<HTMLButtonElement>('#counter2')!.addEventListener('click'
     data: {
       name: '自定义 JsApi'
     },
-    success(res) {
+    success(res: any) {
       document.querySelector('#system')!.innerHTML = JSON.stringify(res, null, 2)
     },
+    fail(err: any) {
+      document.querySelector('#system')!.innerHTML = JSON.stringify(err, null, 2)
+    }
   })
 })

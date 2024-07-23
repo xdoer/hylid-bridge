@@ -1,0 +1,30 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@hylid/call': ^3.1.2
+
+dependencies:
+  '@hylid/call': 3.1.2
+
+packages:
+
+  /@hylid/call/3.1.2:
+    resolution: {integrity: sha512-4Uvv08cNBNRjvrWHo3H0EtgtoQQ8V7XXtMbVUgXb9Hj7eciT5ZD9dj5VtP5EsGjyz+tfASuy8hIGDkPl3qYvRg==}
+    dependencies:
+      '@hylid/env': 3.1.2
+      '@hylid/types': 3.1.2
+    dev: false
+
+  /@hylid/env/3.1.2:
+    resolution: {integrity: sha512-TzFvuSp2kia+sP90w1YvOjLwYlvaKHIf1fHISFQD7eTpe9ZWOIf61FTwWT/f/DMrSDb4/+RNPOel9WbZbj0waw==}
+    dev: false
+
+  /@hylid/types/3.1.2:
+    resolution: {integrity: sha512-i/f0bGMFC/+qZ+8KeD2S3K4LntIHqxshSaTKU0OOSoYoGpOZ6OE7J8d824xZyhPfGxQfqZgXAH7PRSn1ymItGg==}
+    dependencies:
+      '@types/miniprogram': 1.0.8
+    dev: false
+
+  /@types/miniprogram/1.0.8:
+    resolution: {integrity: sha512-EtEASlKBMMNwGql+/+tTrFOHyMKmF3KIwpkvPtNsKjdgmlbedzCNpVONSS/HdR6vECaqjDn3Hmkwu6T/fZRQCA==}
+    dev: false

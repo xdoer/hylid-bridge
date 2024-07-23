@@ -1,12 +1,12 @@
 lockfileVersion: 5.4
 
 specifiers:
-  hylid-bridge: ^3.0.0-alpha.11
+  hylid-bridge: ^3.1.2
   typescript: ^5.2.2
   vite: ^5.3.4
 
 devDependencies:
-  hylid-bridge: 3.0.0-alpha.11
+  hylid-bridge: 3.1.2
   typescript: 5.5.3
   vite: 5.3.4
 
@@ -239,28 +239,28 @@ packages:
       lodash-es: 4.17.21
     dev: true
 
-  /@hylid/call/3.0.0-alpha.11:
-    resolution: {integrity: sha512-YmWLlcQvXz7O+nSH1G6AX2u32nNPr4oVYKwDShqVE61Svfas0LjkBjHsopdBxGHLA8a5FGh/J613PeecMBRz3g==}
+  /@hylid/call/3.1.2:
+    resolution: {integrity: sha512-4Uvv08cNBNRjvrWHo3H0EtgtoQQ8V7XXtMbVUgXb9Hj7eciT5ZD9dj5VtP5EsGjyz+tfASuy8hIGDkPl3qYvRg==}
     dependencies:
-      '@hylid/env': 3.0.0-alpha.11
-      '@hylid/types': 3.0.0-alpha.11
+      '@hylid/env': 3.1.2
+      '@hylid/types': 3.1.2
     dev: true
 
-  /@hylid/custom-jsapi/3.0.0-alpha.11:
-    resolution: {integrity: sha512-/W1NPMhG4DTrugwQYt8WuXr8CvWPy8YsVKV3iQXs3e7oyj5C3unG6KEujABctSMOfQJOKxsVaBc8/TUuAdts3Q==}
+  /@hylid/custom-jsapi/3.1.2:
+    resolution: {integrity: sha512-maaCFaTliDnbLnhimUroqqt81QLzuRr8ZxpPVuI9JqigW7ZWnFLXoQoj7rsSTFzZxBincH0WbOOvACoa9j+DHQ==}
     dependencies:
-      '@hylid/call': 3.0.0-alpha.11
-      '@hylid/env': 3.0.0-alpha.11
-      '@hylid/types': 3.0.0-alpha.11
+      '@hylid/call': 3.1.2
+      '@hylid/env': 3.1.2
+      '@hylid/types': 3.1.2
       qs-es5: 6.8.4
     dev: true
 
-  /@hylid/env/3.0.0-alpha.11:
-    resolution: {integrity: sha512-p0qTaEp2uYytGTwYBLcQcK1V8sVVfEFjVRF8XwdQQr7di60sLWgq6YLemktJKJ0wl4P55glAn7zcSk6+HSsVaA==}
+  /@hylid/env/3.1.2:
+    resolution: {integrity: sha512-TzFvuSp2kia+sP90w1YvOjLwYlvaKHIf1fHISFQD7eTpe9ZWOIf61FTwWT/f/DMrSDb4/+RNPOel9WbZbj0waw==}
     dev: true
 
-  /@hylid/types/3.0.0-alpha.11:
-    resolution: {integrity: sha512-b4DVAUqX13wtGRgqdxA1Bw4SOTSxpuetl895zjBIAfypKn5u0F4e9fgKT5qkO6KVhnbJ2wu65UjSHK9gGNcfbQ==}
+  /@hylid/types/3.1.2:
+    resolution: {integrity: sha512-i/f0bGMFC/+qZ+8KeD2S3K4LntIHqxshSaTKU0OOSoYoGpOZ6OE7J8d824xZyhPfGxQfqZgXAH7PRSn1ymItGg==}
     dependencies:
       '@types/miniprogram': 1.0.8
     dev: true
@@ -499,17 +499,17 @@ packages:
     dev: true
     optional: true
 
-  /hylid-bridge/3.0.0-alpha.11:
-    resolution: {integrity: sha512-DB/BeU0qLQfCm/Wl2mH6FPv/Sc2c7VokcOTYLwteO8FGVrASsCyvNogvEm23eRsDKDZdjpOhnR21iAo5DBB9Wg==}
+  /hylid-bridge/3.1.2:
+    resolution: {integrity: sha512-7/0ytM8AC7Xdk025FRxLhucRReetq62tMfd8nvas/4bmSb3zGYILili1Pbm/rIBSeb+idMs9D0QF0Mxx7FeIrA==}
     dependencies:
       '@babel/runtime': 7.18.9
       '@goldfishjs/utils': 2.28.0
-      '@hylid/call': 3.0.0-alpha.11
-      '@hylid/custom-jsapi': 3.0.0-alpha.11
-      '@hylid/env': 3.0.0-alpha.11
-      '@hylid/types': 3.0.0-alpha.11
+      '@hylid/call': 3.1.2
+      '@hylid/custom-jsapi': 3.1.2
+      '@hylid/env': 3.1.2
+      '@hylid/types': 3.1.2
       '@types/miniprogram': 1.0.8
-      miniapp-web-jsapi: 3.0.0-alpha.11
+      miniapp-web-jsapi: 3.1.2
     transitivePeerDependencies:
       - debug
     dev: true
@@ -530,8 +530,8 @@ packages:
       mime-db: 1.52.0
     dev: true
 
-  /miniapp-web-jsapi/3.0.0-alpha.11:
-    resolution: {integrity: sha512-KHJ7iHl4Boin3F2moQLYNE5+cf6fTI4bk9NN4GE/QoR/np9VSoZx4T3+peBjRUFJuIbdqcDC3iRW9N3kHBAaCA==}
+  /miniapp-web-jsapi/3.1.2:
+    resolution: {integrity: sha512-cRDRmfiqL/ZLJTaegYawIug/0CajN2txM3NH4VEvX9OimbXt03CXuw8rCQiHDXOJP2gehQtqUv3KhgpkxpOLYg==}
     dependencies:
       '@babel/runtime': 7.18.9
       axios: 0.27.2
